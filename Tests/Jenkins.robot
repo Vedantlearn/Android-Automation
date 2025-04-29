@@ -20,6 +20,7 @@ Set Java Version For Appium
     Set Environment Variable    JAVA_HOME    ${APPJDK}
     Run Process   jabba use ${APPJDK}
 
+
 Set Java Version For Jenkins
     Set Environment Variable    JAVA_HOME    ${JENKINSJDK}
     Run Process    jabba use ${JENKINSJDK}
